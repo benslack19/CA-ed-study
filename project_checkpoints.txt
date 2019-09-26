@@ -16,3 +16,14 @@ finish other applications
 
 
 INSIGHT APP DEADLINE: 10/21/19
+
+col_lowincome_ratings = ['test_score_rating_allStudents', 'test_score_rating_LIstudents', 'test_score_rating_notLIstudents', 
+'test_scores_english_allStudents,
+'test_scores_english_allStudents_n_students', 
+'test_scores_english_LIstudents,
+'test_scores_english_LIstudents_n_students', 'test_scores_math_allStudents,
+'test_scores_math_allStudents_n_students',
+'test_scores_math_LIstudents,
+'test_scores_math_LIstudents_n_students', 
+'graduation_rates_UCCSU_eligibility_allStudents', 'graduation_rates_UCCSU_eligibility_LIstudents',
+'graduation_rates_gradRates_eligibility_allStudents', 'graduation_rates_gradRates_eligibility_LIstudents']
