@@ -17,13 +17,24 @@ finish other applications
 
 INSIGHT APP DEADLINE: 10/21/19
 
-col_lowincome_ratings = ['test_score_rating_allStudents', 'test_score_rating_LIstudents', 'test_score_rating_notLIstudents', 
-'test_scores_english_allStudents,
-'test_scores_english_allStudents_n_students', 
-'test_scores_english_LIstudents,
-'test_scores_english_LIstudents_n_students', 'test_scores_math_allStudents,
-'test_scores_math_allStudents_n_students',
-'test_scores_math_LIstudents,
-'test_scores_math_LIstudents_n_students', 
-'graduation_rates_UCCSU_eligibility_allStudents', 'graduation_rates_UCCSU_eligibility_LIstudents',
-'graduation_rates_gradRates_eligibility_allStudents', 'graduation_rates_gradRates_eligibility_LIstudents']
+'ba280f266dd08a53bbb322d77fbab2a4'
+    query_school = 'https://api.greatschools.org/search/schools?key=ba280f266dd08a53bbb322d77fbab2a4&state=CA&q=ICEF-View-Park' + school.replace(' ','-')
+    url = query_school
+
+ICEF-View-Park
+
+
+ICEF View Park Preparatory Accelerated High (0, 1)
+CATCH Prep Charter High, Inc. (0, 1)
+Dr. Richard A. Vladovic Harbor Teacher Preparation Academy (0, 1)
+CHAMPS - Charter HS of Arts-Multimedia & Performing (0, 1)
+
+
+
+if df !=23
+
+then alter the name
+
+
+
+Preparatory Accelerated High
