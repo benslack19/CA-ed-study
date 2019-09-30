@@ -29,12 +29,4 @@ CATCH Prep Charter High, Inc. (0, 1)
 Dr. Richard A. Vladovic Harbor Teacher Preparation Academy (0, 1)
 CHAMPS - Charter HS of Arts-Multimedia & Performing (0, 1)
 
-
-
-if df !=23
-
-then alter the name
-
-
-
-Preparatory Accelerated High
+# keep if it is 5 or less
