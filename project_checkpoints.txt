@@ -33,3 +33,13 @@ CHAMPS - Charter HS of Arts-Multimedia & Performing (0, 1)
 
 
 
+THINGS TO MENTION:
+-have a repo
+-commented code
+-functions
+-considerations during scraping, like merging
+-choices for error metrics and differences between them
+
+
+
+
