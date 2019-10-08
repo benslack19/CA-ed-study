@@ -1,7 +1,7 @@
 15 minute rule...
 saying you're 30% done
 
-CHECKPOINTS:
+CHECKPOINTS: ---------------------------
 
 WEEK OF 9/29: finish scraping data for SU schools
 
@@ -17,30 +17,56 @@ finish other applications
 
 INSIGHT APP DEADLINE: 10/21/19
 
-'ba280f266dd08a53bbb322d77fbab2a4'
-    query_school = 'https://api.greatschools.org/search/schools?key=ba280f266dd08a53bbb322d77fbab2a4&state=CA&q=ICEF-View-Park' + school.replace(' ','-')
-    url = query_school
+MORGAN FEEDBACK 10/7/19 ------------------
 
-ICEF-View-Park
-
-
-ICEF View Park Preparatory Accelerated High (0, 1)
-CATCH Prep Charter High, Inc. (0, 1)
-Dr. Richard A. Vladovic Harbor Teacher Preparation Academy (0, 1)
-CHAMPS - Charter HS of Arts-Multimedia & Performing (0, 1)
-
-# keep if it is 5 or less
-
+Big picture suggestions:
+-have a better understanding of what you're trying to report - features that can improve LI rate?
+  -what actionable features can you use?
+  -example: how much aid did that community get?
+	
+-don't worry about model being perfect. if it helps a little bit, it's still useful.
+-be able to say something about why you chose a certain model, error metric (e.g. why RMSE instead of absolute error - deals with outliers better?)
+-say what the unit is, or whether it's unitless
+-say whether correlations can be positive or negative
+-firm up story
 
 
-THINGS TO MENTION:
--have a repo
+Technical suggestions:
+-include variance of regular students
+-investigate outlier schools in the tail with 100% pass rate
+-try classification - either the schools with high pass rate or just split at the median
+-show plots for correlations, even if they're 0. they communicate much better
+-linear regression assumes that features are normally distributed. rescale ahead of time if necesssary.
+-transformation of training data: split, then scale, then apply to test set/linear regression
+-be thoughtful about error metric you choose
+-make a dumber base model, e.g. just guessing the median, so any improvement is better
+-try using regularization, which will take care of all the features and pull features out for you. don't need to do feature selection ahead of time.
+-say why lasso or ridge
+be able to have features that you can say something about.
+
+
+
+
+THINGS TO MENTION  ------------------
+-have a repo to track changes and version control
 -commented code
--functions
+-made functions
 -considerations during scraping, like merging
 -choices for error metrics and differences between them
+-choices for datasets to pull in and merge and why
 
 
 
-Test for clone
+
+
+
+GIT NOTES FOR WORKING ON 2 COMPUTERS  ------------------
+-finish on one computer
+-save, git commit and git push
+-verify saving to github website
+-close notebook but don't close jupyter entirely (keep the main page up). this will save variables.
+-open second computer
+-git pull
+-if necessary, resolve conflicts by opening notebook in text editor (visual studio code)
+-start working and repeat at top.
 
