@@ -36,7 +36,7 @@ Technical suggestions:
 -investigate outlier schools in the tail with 100% pass rate
 -try classification - either the schools with high pass rate or just split at the median
 -show plots for correlations, even if they're 0. they communicate much better
--linear regression assumes that features are normally distributed. rescale ahead of time if necesssary.
+-linear regression assumes that features are normally distributed. rescale ahead of applying regression.
 -transformation of training data: split, then scale, then apply to test set/linear regression
 -be thoughtful about error metric you choose
 -make a dumber base model, e.g. just guessing the median, so any improvement is better
