@@ -46,7 +46,6 @@ be able to have features that you can say something about.
 
 
 
-
 THINGS TO MENTION  ------------------
 -have a repo to track changes and version control
 -commented code
@@ -54,8 +53,6 @@ THINGS TO MENTION  ------------------
 -considerations during scraping, like merging
 -choices for error metrics and differences between them
 -choices for datasets to pull in and merge and why
-
-
 
 
 
@@ -71,10 +68,5 @@ GIT NOTES FOR WORKING ON 2 COMPUTERS  ------------------
 -start working and repeat at top.
 
 
-col_census_pct
-col_census_est
-col_gs_hl_ratings
-col_teacher_ratings
-col_lowincome_ratings_notarget
-
+10/16 to do:
 
