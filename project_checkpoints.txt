@@ -68,5 +68,5 @@ GIT NOTES FOR WORKING ON 2 COMPUTERS  ------------------
 -start working and repeat at top.
 
 
-10/16 to do:
+10/19 to do:
 
