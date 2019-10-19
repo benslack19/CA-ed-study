@@ -70,3 +70,6 @@ GIT NOTES FOR WORKING ON 2 COMPUTERS  ------------------
 
 10/19 to do:
 
+
+
+
