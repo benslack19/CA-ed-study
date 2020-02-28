@@ -1,3 +1,15 @@
 # CA-ed-study
 
-Investigtating features of CA high schools that contribute to low income student success.
+
+
+I investigated features of high schools that may contribute to low income student success. Here, I'm defining success as the school's college eligibility rates for their low income students. The hope is to identify features that can be affected by policy changes to help these students graduate and become college eligible at a higher rate. I focused on CA public high schools.
+
+To obtain features of schools that could be meaningful for my target, I pulled in data from various sources. I obtained census data for each zip code in the state of CA. I then pulled in information from the CA public schools database. Finally, I used data from GreatSchools both with an API and with custom functions (example of one high school shown [here](https://www.greatschools.org/california/chula-vista/6279-Bonita-Vista-Senior-High-School/#Low-income_students*Graduation_rates*UC_CSU_eligibility)). I applied a logistic regression to predict low income student college eligibility rates and evaluated the feature coefficients to determine their association with this target.
+
+Some features I identified that are associated with low income student success have varying degrees of "actionability": some can be affected directly by policy changes, while others could be indirectly related. For example, it is clear that schools where all students perform well (by college eligibility rates) is a significantly good predictor in how well their low income students are also doing. On the surface, this is not completely surprising, but it highlights how the right environment benefits all demographics of students.
+
+Other features are not as influential but indicate that some public programs reap benefits. Communities where low income students do well receive some welfare benefits (in the form of supplemental and social security income) and have workers that use public transportation. Therefore policies that adversely affect the recipients of these programs might indirectly be detrimental to the school performance of their children or grandchildren.
+
+It is also notable what features did *not* show benefits for low income student performance. While teacher salary was positively correlated with student performance, student-to-teacher ratio or whether teachers had 3 or more years of experience were not features that predicted whether a school was exceptionally performing. The magnet or charter status of a school were also not predictive features despite their perception. Of course, adding data from other states or evaluating schools longitudinally would help inform how robust these conclusions are.
+
+New data would also be informative. For example, recently (October 2019) the state of [California will start mandating later high school start times](https://www.washingtonpost.com/opinions/students-need-more-sleep-good-for-california-for-giving-them-a-later-school-start/2019/10/18/f5dfc0d2-f047-11e9-8693-f487e46784aa_story.html). While the sleep benefits to students are clear, it is debatable whether this could disproportionately affect low income communities. Other interesting data would be seeing whether and how much tech usage could be impactful.
